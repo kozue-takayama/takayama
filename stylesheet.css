@@ -138,6 +138,7 @@ h6{
 .check{
  width: 500px;
  margin:0 auto;
+ clear: both;
 }
 
 .check a{
@@ -160,7 +161,7 @@ h6{
 }
 
 .category-list{
-  width: 500px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -168,7 +169,8 @@ h6{
   float: left;
   width: 200px;
   text-align:center;
-  margin: 0 auto;
+  margin: 20px ;
+  display: inline-block;
 }
 
 .category-item:hover{
@@ -179,6 +181,39 @@ h6{
   display: block;
   width: 200px;
   margin: 0 auto;
+}
+
+.category-item{
+  text-align:center;
+}
+
+.price{
+width:1500px;
+margin: 0 auto;
+}
+
+.price-title{
+  font-size: 20px;
+  color: #ff1493;
+
+}
+
+.price-item{
+  width: 500px;
+  margin: 0 auto;
+
+}
+
+.price-subtitle{
+  font-weight: bold;
+}
+
+.price-subtitle p{
+  font-size: 10px;
+}
+
+h7{
+  color: #ff1493;
 }
 
 .delivery-message{
@@ -199,4 +234,3 @@ h6{
   line-height:10px;
   text-align:left;
 }
-
